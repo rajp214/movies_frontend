@@ -1,0 +1,42 @@
+.DetailsPage{
+    display: flex;
+    flex-direction: inherit;
+    /* height: 80vh !important; */
+}
+
+.DetailsPage img{
+    border-radius: 5px !important;
+    width: 50% !important;
+    height: 65vh !important;
+    margin: 20px 20px !important;
+}
+
+.DetailsPage img:hover {
+    /* transform: scale(1.05);  */
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 2px seagreen;
+  }
+.DetailsPage pre{
+    font-family: 'Noto Serif', serif !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: white    ;
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    margin-top: 20% !important;
+    margin-left: 10% !important;
+    text-align: left;
+    font-weight: 900;
+}
+
+.backgroudimageClass{
+    width: 100%;
+    height: 80vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

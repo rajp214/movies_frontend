@@ -1,0 +1,29 @@
+.footerBg{
+color: white !important;
+font-family: 'Noto Serif', serif !important;
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-top: 1px solid #1CB5E0;
+height: 250px;
+}
+
+.footerBg a{
+    color: white !important;
+}
+
+
+.flex-container {
+    display: flex !important;
+    flex-direction: column !important;
+    float: left !important;
+    width: 250px !important;
+  }
+
+  .outernavdiv{
+      margin-left: 20px;;
+  }
+
+  .footerClass{
+    margin-left: 29% !important;
+  }

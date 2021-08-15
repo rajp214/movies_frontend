@@ -1,0 +1,25 @@
+.FeaturedTVSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.FeaturedTVSection img{
+    border-radius: 5px !important;
+    width: 20% !important;
+    height: 400px !important;
+    margin: 20px 20px !important;
+    transition: transform .2s;
+}
+
+.FeaturedTVSection img:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+  }
+
+.FeaturedTVSectionTitle{
+    margin-left: 1% !important;
+    margin-top: 2% !important;
+    font-size: 38px !important;
+}
+
+    

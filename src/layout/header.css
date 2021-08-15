@@ -1,0 +1,29 @@
+.navbarBg{
+    height: 85px !important;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: fixed;
+top: 0;
+z-index: 999;
+left: 0;
+right: 0;
+
+}
+
+.navbarBg a{
+    color: white !important;
+}
+
+.navbarBg a:hover{
+    color:chocolate !important;
+}
+
+/* .navbarBg a:active,.navbarBg a:visited{
+    color: #141E30 !important;
+} */
+
+.title{
+    font-family: 'Lobster', cursive !important;
+    font-size: 40px !important;
+}
